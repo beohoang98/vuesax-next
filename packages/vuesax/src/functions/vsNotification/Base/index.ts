@@ -1,6 +1,6 @@
 import Vue from 'vue';
 import './style.sass'
-import component from './VsNotification'
+import component from './vsNotification'
 
 interface NotificationParams {
   title?: string

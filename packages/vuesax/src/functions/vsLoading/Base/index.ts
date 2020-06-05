@@ -1,6 +1,6 @@
 import Vue from 'vue';
 import './style.sass'
-import component from './VsLoading'
+import component from './vsLoading'
 
 interface LoadingParams {
   type?: string
