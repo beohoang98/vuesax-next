@@ -33,7 +33,7 @@ export default class VsSwitch extends VsComponent {
         let indexVal = 0
 
         array.forEach((item: any, index: number) => {
-          if(JSON.stringify(item) == JSON.stringify(this.val)) {
+          if (JSON.stringify(item) == JSON.stringify(this.val)) {
             indexVal = index
           }
         })
@@ -95,7 +95,7 @@ export default class VsSwitch extends VsComponent {
             let indexVal = 0
 
             array.forEach((item: any, index: number) => {
-              if(JSON.stringify(item) == JSON.stringify(this.val)) {
+              if (JSON.stringify(item) == JSON.stringify(this.val)) {
                 indexVal = index
               }
             })

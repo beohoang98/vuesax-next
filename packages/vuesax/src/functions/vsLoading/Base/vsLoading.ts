@@ -29,7 +29,7 @@ export default class VsLoading extends Vue {
     this.$nextTick(() => {
       setColor('color', this.color, this.$el)
       setColor('background', this.background, this.$el)
-      if(this.opacity) {
+      if (this.opacity) {
         setVar('opacity', this.opacity, this.$el)
       }
     })

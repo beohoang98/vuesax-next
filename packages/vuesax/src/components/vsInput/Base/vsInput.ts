@@ -44,7 +44,7 @@ export default class VsInput extends VsComponent {
   }
 
   enter(el: any, done: any) {
-    let h = el.scrollHeight
+    const h = el.scrollHeight
     el.style.height = h - 1 + 'px'
     done()
   }

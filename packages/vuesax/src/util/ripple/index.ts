@@ -9,7 +9,7 @@ const ripple = (evt: any, color: any = '', solid: boolean = false) => {
 
   let time = 0.6
 
-  if(el.clientWidth > 150) {
+  if (el.clientWidth > 150) {
     time = 1.2
   }
 
@@ -68,7 +68,7 @@ const rippleReverse = (evt: any) => {
 
   let time = 0.6
 
-  if(el.clientWidth > 150) {
+  if (el.clientWidth > 150) {
     time = 1.2
   }
 
@@ -128,7 +128,7 @@ const rippleCut = (evt: any) => {
 
   let time = 0.6
 
-  if(el.clientWidth > 150) {
+  if (el.clientWidth > 150) {
     time = 1.2
   }
 
