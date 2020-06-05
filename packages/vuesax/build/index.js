@@ -13,7 +13,7 @@ emptyLine()
 emptyLine()
 
 execSync(
-  `npx webpack --config build/lib/webpack.umd.js`, {stdio: 'inherit'}
+  `npm run build:umd`, {stdio: 'inherit'}
   )
 
 emptyLine()
@@ -23,7 +23,7 @@ emptyLine()
 emptyLine()
 
 execSync(
-  `npx webpack --config build/components/webpack.components.js`, {stdio: 'inherit'}
+  `npm run build:components`, {stdio: 'inherit'}
   )
 
 emptyLine()

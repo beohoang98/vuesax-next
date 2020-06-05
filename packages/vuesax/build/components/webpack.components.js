@@ -17,6 +17,15 @@ module.exports = merge(baseWebpackConfig, {
       libraryExport: 'default',
       globalObject: 'typeof self !== \'undefined\' ? self : this'
     },
+    module: {
+      rules: [
+        {
+          test: /\.(tsx|ts)$/,
+          exclude: /node_modules/,
+          loader: ['ts-loader'],
+        },
+      ]
+    },
     plugins:[
       new MiniCssExtractPlugin({
         filename: '[name]/style.css',

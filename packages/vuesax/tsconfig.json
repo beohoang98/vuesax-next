@@ -1,7 +1,14 @@
 {
   "extends": "../../tsconfig.json",
   "compilerOptions": {
-    "declaration": true
-  }
+    "declaration": true,
+    "outDir": "dist",
+    "rootDir": "src",
+    // TODO: fix noImplicitAny in code
+    "noImplicitAny": false,
+    // TODO: fix noImplicitAny in code
+    "noImplicitThis": false
+  },
+  "include": ["src"]
 }
 

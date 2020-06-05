@@ -5,7 +5,8 @@
   "main": "dist/vuesax.js",
   "scripts": {
     "build": "node build/index.js",
-    "build:components": "npx webpack --config build/components/webpack.component.js",
+    "build:components": "webpack --config build/components/webpack.components.js",
+    "build:umd": "webpack --config build/lib/webpack.umd.js",
     "test": "jest",
     "lint": "tslint -c tslint.json 'src/**/*.ts'",
     "new:component": "node scripts/newComponent.js",
